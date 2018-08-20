@@ -3,7 +3,8 @@
 	CompareGeneSummaries.R – Compare two different versions of a query that summarize the Mesh Diseases associated with gene.
 				 Email related to this assignment – “R assignment” Jun 13, 2018
 				 
-	RMySQL_Premade_Temp_Vector.R – Continuing from “CompareGeneSummaries.R”, evaluating whether using temporary or permanent 					table will improve query times.
+	RMySQL_Premade_Temp_Vector.R – Continuing from “CompareGeneSummaries.R”, evaluating whether using temporary or permanent 
+				       table will improve query times.
 				       Email related to this assignment – “R assignment” Jun 21, 2018
 				       
 	Upload_ArticleText_to_table.R – Create table ‘PubArticleText’ and load all the article’s title and abstract to database.
