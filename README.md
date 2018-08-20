@@ -10,7 +10,7 @@
 				       
 	Upload_ArticleText_to_table.R – Create table ‘PubArticleText’ and load all the article’s 
 		title and abstract to database.
-		Email related to this assignment – “Article data for DCAST / CPP July 4, 2018
+		Email related to this assignment – “Article data for DCAST / CPP" July 4, 2018
 					
 	CancerTermArticleQuery.R – Takes the 15 cancer terms and their patterns and do full-text 
 		search in Boolean mode against the article title and abstract.
