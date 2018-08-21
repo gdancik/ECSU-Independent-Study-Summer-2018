@@ -15,3 +15,6 @@
 	CancerTermArticleQuery.R – Takes the 15 cancer terms and their patterns and do full-text 
 		search in Boolean mode against the article title and abstract.
 		Email related to this assignment – “Cancer keyword list” Aug 3, 2018
+	
+	UpdatingTableAssignment.R - Update old PubMesh table with new data from disease2pubtator
+		Email related to this assignment – “Next steps” Aug 3, 2018
