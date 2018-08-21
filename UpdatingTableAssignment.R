@@ -24,7 +24,7 @@ newDisease2PubFilePath <- "/home/mz/Desktop/disease2pubtator"
 # so we can have an record what was inserted and deleted.
 outputFilePath <- "/home/mz/Desktop/rtesting"
 
-# If you want to delete rows from orignal 'PubMesh' table then set deleteRows to TRUE
+# If you want to delete rows from original 'PubMesh' table then set deleteRows to TRUE
 # This only works when newDatabase is FALSE
 deleteRows <- FALSE
 
@@ -124,7 +124,7 @@ if(newDatabase == FALSE){
   filepath2 <- paste0(outputFilePath,"/DeletedPubmesh.txt")
   write.table(res, file = filepath2, sep = "\t", row.names = FALSE)
   
-  # insert the rows from 'newPubMesh' table to the orignal 'PubMesh' table
+  # insert the rows from 'newPubMesh' table to the original 'PubMesh' table
   qry <- paste0("INSERT INTO pubmesh 
                 SELECT DISTINCT * FROM ",tablename," WHERE 
                 NOT EXISTS( SELECT pubmesh.pmid
