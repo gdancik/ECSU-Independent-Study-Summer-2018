@@ -1,4 +1,5 @@
 # ECSU-Independent-Study-Summer-2018
+For this independent study, I worked with Dr. Dancik on a tool called Cancer Publication Portal (CPP). This tool will help researchers find biomedical journals related to human cancer. The tool will break down the journals by genes, cancer types, drugs, and mutations. The researcher will be able to filter the journals by these categories. This project had three components to work on: web interface, data scraping, and the database. I worked on the database that stored all the data for CPP.
 
 	CompareGeneSummaries.R – Compare two different versions of a query that summarize the 
 		Mesh Diseases associated with gene.
